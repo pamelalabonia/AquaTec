@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+.header {
+    border-bottom: 3px solid aqua;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header .container {
+    justify-content: space-between;
+}
+.navBar {
+    color: rgb(255, 187, 0);
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+.aqui {
+    font-weight: bold;
+    font-size: 15px;
+}
+.titulo {
+    color: aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+.banner {
+    background-image: url('imgs/bg-jelly-fish-para-home.png');
+    height: 500px;
+    color: white;
+    display: flex;
+}
+.banner .container p span {
+    font-weight: 1000;
+}
+.banner .container {
+    justify-content: center;
+    font-size: 36px;
+}
+.banner .container p {
+    width: 30%;
+}
+.social {
+    background-color: white;
+    display: flex;
+
+}
+.box img {
+    width: 120px;
+}
+.social .container .boxes {
+    display: flex;
+}
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.funter {
+    background-color: aqua;
+    height: 90px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+}
+.funter .container {
+    justify-content: center;
+}
+a {
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
+.banner .container .card {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 3%;
+}
+.card h1 {
+    font-size: 30px;
+}
+.card h4 {
+    font-size: 16px;
+}
+input {
+    border: 1px solid palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+select {
+    border: 1px solid palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+.card button {
+    background-color: palevioletred;
+    color: white;
+    /*font-family: monospace;
+    font-size: 20px;*/
+    font: 10 20px monoespace;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.card .register {
+    background-color: beige;
+    height: 430px;
+    width: 900px;
+    border-radius: 3%;
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap;
+    color: palevioletred;
+    align-items: center;
+}
