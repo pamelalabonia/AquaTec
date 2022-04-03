@@ -27,6 +27,10 @@ body {
     font-weight: bold;
     font-size: 15px;
 }
+a {
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+}
 .titulo {
     color: aqua;
     width: fit-content;
@@ -75,10 +79,6 @@ body {
 .funter .container {
     justify-content: center;
 }
-a {
-    color: rgb(255, 187, 0);
-    text-decoration: none;
-}
 .banner .container .card {
     background-color: beige;
     height: 400px;
@@ -111,7 +111,7 @@ select {
     /*font-family: monospace;
     font-size: 20px;*/
     font: 10 20px monoespace;
-    height: 40px;
+    height: 30px;
     width: 100px;
     margin-top: 20px;
     border: 0px;
@@ -129,4 +129,11 @@ select {
     flex-flow: column wrap;
     color: palevioletred;
     align-items: center;
+}
+h6 {
+    font-size: 13px;
+}
+h6 a {
+    text-decoration:underline;
+    color: blue;
 }
